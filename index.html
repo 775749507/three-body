@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三体 · 地球往事 | 个人粉丝致敬站</title>
+<meta name="description" content="一个非营利的《三体》主题粉丝网站：三部曲导读、核心概念、人物群像、编年史与语录。给岁月以文明，而不是给文明以岁月。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpolygon points='32,6 58,52 6,52' fill='none' stroke='%23e2483d' stroke-width='5'/%3E%3Ccircle cx='32' cy='40' r='5' fill='%23e8b04a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.loli.net">
+<link rel="preconnect" href="https://gstatic.loli.net" crossorigin>
+<link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.loli.net/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="glow glow-red" aria-hidden="true"></div>
+<div class="glow glow-blue" aria-hidden="true"></div>
+
+<nav class="topnav" id="topnav">
+  <a class="brand" href="#top"><svg width="20" height="20" viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,6 58,52 6,52" fill="none" stroke="currentColor" stroke-width="6"/><circle cx="32" cy="40" r="6" fill="#e8b04a"/></svg><span>三体</span><em>THREE-BODY</em></a>
+  <div class="navlinks">
+    <a href="#origin">01 起源</a>
+    <a href="#trilogy">02 三部曲</a>
+    <a href="#concepts">03 观念</a>
+    <a href="#characters">04 人物</a>
+    <a href="#timeline">05 编年</a>
+    <a href="#quotes">06 语录</a>
+    <a href="#screens">07 改编</a>
+  </div>
+</nav>
+
+<!-- ═══════════════ HERO ═══════════════ -->
+<header class="hero" id="top">
+  <canvas id="stars"></canvas>
+  <canvas id="sim"></canvas>
+  <div class="hero-inner">
+    <p class="hero-kicker reveal">地球往事三部曲 · 混沌模拟正在运行</p>
+    <h1 class="hero-title reveal" id="heroTitle" aria-label="三体">
+      <span>三</span><span class="zi-red">体</span>
+    </h1>
+    <p class="hero-sub reveal">THREE&#8209;BODY &nbsp;/&nbsp; DARK FOREST &nbsp;/&nbsp; DEATH'S END</p>
+    <p class="hero-tagline reveal">「给岁月以文明，而不是给文明以岁月。」</p>
+    <div class="hero-meta reveal">
+      <span>刘慈欣 著</span><i></i><span>亚洲首部雨果奖最佳长篇</span><i></i><span>一部写给宇宙的往事</span>
+    </div>
+    <a class="hero-scroll reveal" href="#origin">
+      <span class="mono">SCROLL</span>
+      <span class="line"></span>
+      <span class="mono dim">前往黑暗森林深处</span>
+    </a>
+  </div>
+  <aside class="readout mono reveal" id="readout" aria-live="off">
+    <p class="ro-head">// 三体世界实时观测</p>
+    <p><span class="dim">恒星系统</span><b id="roSystem">半人马座 α</b></p>
+    <p><span class="dim">当前纪元</span><b id="roEra">恒纪元</b></p>
+    <p><span class="dim">文明编号</span><b id="roCiv">第 192 号文明</b></p>
+    <p class="ro-msg" id="roMsg">行星运行平稳，正在观测。</p>
+  </aside>
+</header>
+
+<main>
+
+<!-- ═══════════════ 01 起源 ═══════════════ -->
+<section class="sec" id="origin">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">01</span>
+    <h2>起源 · 一名电厂工程师的宇宙</h2>
+  </div>
+  <div class="origin-grid">
+    <figure class="origin-photo reveal">
+      <img src="images/author-poster.jpg" alt="刘慈欣肖像：2023 成都世界科幻大会嘉宾海报" loading="lazy">
+      <figcaption class="mono">LIU CIXIN · 1963—</figcaption>
+    </figure>
+    <div class="origin-text">
+      <p class="lead reveal">在太行山深处的小城阳泉，一位发电厂的计算机工程师，用夜班间隙为整个宇宙编写了历史。</p>
+      <p class="reveal">刘慈欣，1963 年生于北京，成长于山西阳泉，曾任娘子关发电厂计算机工程师。电厂群山环绕、云层低垂，他一边维护机组，一边仰望星空——这支笔后来被称为「以一己之力将中国科幻提升到世界水平」。</p>
+      <p class="reveal">2006 年 5 月，《三体》在《科幻世界》杂志开始连载，单行本次年由重庆出版社出版。2015 年，英文版（刘宇昆 译）摘得第 73 届雨果奖最佳长篇小说奖——亚洲作家第一次站上世界科幻的最高领奖台。此后《黑暗森林》《死神永生》相继问世，被译成三十余种语言，连美国前总统奥巴马也读完全书并写邮件「催更」。</p>
+      <p class="reveal">而这一切的起点，不过是《科幻世界》上一部连载小说，和一张 5 元钱的定价。</p>
+      <div class="origin-cards reveal">
+        <figure><img src="images/sfw-2006.jpg" alt="《科幻世界》2006 年第 5 期封面，《三体》即在该期开始连载" loading="lazy"><figcaption>《科幻世界》2006 年第 5 期<br>《三体》连载由此开始</figcaption></figure>
+        <figure><img src="images/author-cctv.jpg" alt="刘慈欣接受央视《面对面》专访" loading="lazy"><figcaption>央视《面对面》：<br>「科幻与真我」</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 02 三部曲 ═══════════════ -->
+<section class="sec" id="trilogy">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">02</span>
+    <h2>三部曲 · 地球往事</h2>
+    <p class="sec-desc">从雷达峰的一声呼叫，到宇宙尽头的一块墓碑。三部书，一部文明的《史记》。</p>
+  </div>
+  <div class="books">
+    <article class="book reveal" style="--bk:#e2483d">
+      <div class="book-cover" style="background-image:url('images/covers-en.jpg');background-position:0% 50%"></div>
+      <div class="book-body">
+        <p class="mono book-no">卷壹 · 2006</p>
+        <h3>三体 <span class="en">The Three-Body Problem</span></h3>
+        <p class="hook">人类第一次知道：我们并不孤独，也从未安全。</p>
+        <p>疯狂年代的一声叹息，落进大兴安岭深处的红岸基地。纳米科学家汪淼在离奇死亡与眼中的倒计时之间，被推入一款名为《三体》的虚拟游戏；而游戏背后，一场跨越四光年的文明博弈才刚刚开局。</p>
+        <blockquote>「不要回答！不要回答！！不要回答！！！」</blockquote>
+      </div>
+    </article>
+    <article class="book reveal" style="--bk:#d98e32">
+      <div class="book-cover" style="background-image:url('images/covers-en.jpg');background-position:50% 50%"></div>
+      <div class="book-body">
+        <p class="mono book-no">卷贰 · 2008</p>
+        <h3>黑暗森林 <span class="en">The Dark Forest</span></h3>
+        <p class="hook">两条公理，推出宇宙最冷的真相。</p>
+        <p>三体舰队已在途中，四百年倒计时开始。思维透明的敌人不可欺骗，人类便选出四位面壁者，把战略藏进大脑。面壁者罗辑以宇宙社会学两公理推演出黑暗森林法则，并用一记「咒语」，为地球赢得半个世纪。</p>
+        <blockquote>「宇宙就是一座黑暗森林，每个文明都是带枪的猎人。」</blockquote>
+      </div>
+    </article>
+    <article class="book reveal" style="--bk:#58b7d8">
+      <div class="book-cover" style="background-image:url('images/covers-en.jpg');background-position:100% 50%"></div>
+      <div class="book-body">
+        <p class="mono book-no">卷叁 · 2010</p>
+        <h3>死神永生 <span class="en">Death's End</span></h3>
+        <p class="hook">从末日之战，写到时间与空间的尽头。</p>
+        <p>执剑人交接、引力波广播、掩体纪元、二维化——太阳系的命运在一张「小纸片」前尘埃落定。故事驶向 647 号小宇宙与回归运动，也把爱、责任与生存的悖论，写成了宇宙尺度的审判庭。</p>
+        <blockquote>「弱小和无知不是生存的障碍，傲慢才是。」</blockquote>
+      </div>
+    </article>
+  </div>
+  <p class="books-note mono reveal">书封为 Tor Books 英文版 · Ⅰ 刘宇昆 译 / Ⅱ Joel Martinsen 译 / Ⅲ 刘宇昆 译</p>
+</section>
+
+<!-- ═══════════════ 03 观念 ═══════════════ -->
+<section class="sec" id="concepts">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">03</span>
+    <h2>观念 · 黑暗森林的语法</h2>
+    <p class="sec-desc">《三体》真正的的主角不是某个人，而是这些冷峻的概念。它们像一台台思想实验装置，把文明放进极端环境里运转。</p>
+  </div>
+  <div class="concept-grid">
+    <article class="concept reveal"><span class="c-no mono">01</span><h3>黑暗森林法则</h3><p class="c-en mono">THE DARK FOREST</p><p>生存是文明的第一需要；文明不断增长和扩张，而宇宙中的物质总量保持不变。宇宙是一座黑暗森林，每个文明都是带枪的猎人——暴露，即毁灭。</p></article>
+    <article class="concept reveal"><span class="c-no mono">02</span><h3>猜疑链 · 技术爆炸</h3><p class="c-en mono">CHAIN OF SUSPICION</p><p>星际之间，善意无法被验证：「我不知你善恶，你也不知我如何揣度你。」猜疑链条条相扣永无尽头，而技术爆炸随时让弱者翻身——于是先开枪，成了唯一的「理性」。</p></article>
+    <article class="concept reveal"><span class="c-no mono">03</span><h3>智子</h3><p class="c-en mono">SOPHON</p><p>把一颗质子在低维展开、蚀刻电路、再折回高维，便得到一台比整个文明更聪明的计算机。两颗智子先行抵达地球，锁死基础物理，让四百年后的技术天花板一眼可见。</p></article>
+    <article class="concept reveal"><span class="c-no mono">04</span><h3>水滴</h3><p class="c-en mono">THE DROPLET</p><p>强互作用力材料铸成的探测器，表面绝对光滑，映照万物。末日之战中，一颗水滴将人类两千余艘战舰的舰队摧毁殆尽——它是一份「礼物」，也是一句宣告。</p></article>
+    <article class="concept reveal"><span class="c-no mono">05</span><h3>面壁计划</h3><p class="c-en mono">WALLFACER PROJECT</p><p>三体人思维透明，无法理解谋略。联合国选出四位面壁者，真实战略只存在于大脑之中，公开的一切皆为表演。四个人的独角戏，赌上的是整个文明的存亡。</p></article>
+    <article class="concept reveal"><span class="c-no mono">06</span><h3>二向箔</h3><p class="c-en mono">DUAL VECTOR FOIL</p><p>歌者文明信手抛出的清理品。三维空间向二维跌落，太阳系连同它全部的历史，被压成一幅绝对精确、也绝对死寂的巨画。毁灭如此轻盈，轻得像一张便签。</p></article>
+    <article class="concept reveal"><span class="c-no mono">07</span><h3>曲率驱动</h3><p class="c-en mono">CURVATURE PROPULSION</p><p>不动飞船，只动空间：把船尾的曲率「熨平」，让空间回弹的涟漪推着飞船触及光速。航迹在宇宙中留下永不愈合的死线——但对逃亡者而言，光速就是方舟。</p></article>
+    <article class="concept reveal"><span class="c-no mono">08</span><h3>脱水</h3><p class="c-en mono">DEHYDRATION</p><p>乱纪元来临，三体人排干水分卷成一张皮储存起来；恒纪元再现，再浸入湖水苏醒。文明在恒星的无常中一次次毁灭与重生，生存本身成了唯一的哲学。</p></article>
+  </div>
+</section>
+
+<!-- ═══════════════ 插叙 · 黑暗森林 ═══════════════ -->
+<section class="interlude" style="background-image:url('images/space-galaxies.jpg')">
+  <div class="interlude-inner reveal">
+    <p class="mono dim">宇宙社会学两公理 · 推论</p>
+    <p class="interlude-quote">宇宙就是一座黑暗森林，每个文明都是带枪的猎人，像幽灵般潜行于林间……他必须小心，因为林中到处都有与他一样潜行的猎人。如果他发现了别的生命，能做的只有一件事：开枪消灭之。</p>
+    <p class="interlude-cite mono">—— 罗辑，《黑暗森林》</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 04 人物 ═══════════════ -->
+<section class="sec" id="characters">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">04</span>
+    <h2>人物 · 站在文明坐标上的人</h2>
+    <p class="sec-desc">《三体》把普通人一次次放到决定文明命运的坐标上——然后冷静地记录他们的选择。</p>
+  </div>
+  <div class="people-grid">
+    <article class="person reveal"><span class="p-glyph">叶</span><h3>叶文洁</h3><p class="p-role mono">天体物理学家 · ETO 统帅</p><p>目睹至暗年代后，她在红岸基地两次按下发射按钮，把地球坐标射向群星。「我点燃了火，却控制不了它。」</p></article>
+    <article class="person reveal"><span class="p-glyph">汪</span><h3>汪淼</h3><p class="p-role mono">纳米材料科学家</p><p>《三体》第一部的主人公。眼中的宇宙倒计时、三体游戏的玩家、「古筝行动」的执行者——一个被迫看见真相的普通人。</p></article>
+    <article class="person reveal"><span class="p-glyph">罗</span><h3>罗辑</h3><p class="p-role mono">面壁者 · 首任执剑人</p><p>从玩世不恭到独坐雪原，他以黑暗森林威慑压住两个世界六十二年，最后交代的是一句：「把字刻在石头上。」</p></article>
+    <article class="person reveal"><span class="p-glyph">史</span><h3>史强</h3><p class="p-role mono">刑警 · 「大史」</p><p>不讲「科学」却屡屡救场的老刑警。麦田里那句「虫子从来没有被战胜过」，是全书最粗粝也最提气的一口酒。</p></article>
+    <article class="person reveal"><span class="p-glyph">章</span><h3>章北海</h3><p class="p-role mono">太空军政委 · 「自然选择」号</p><p>用一生伪装只为一件事：为人类保存逃亡的火种。父亲的「要多想」，他想了一辈子；临终只有一句「没关系的，都一样」。</p></article>
+    <article class="person reveal"><span class="p-glyph">云</span><h3>云天明</h3><p class="p-role mono">阶梯计划 · 送入敌营的大脑</p><p>一颗大脑被送进三体舰队，在敌国靠三个童话为人类偷运情报。与程心重逢时他说：「宇宙很大，生活更大。」</p></article>
+    <article class="person reveal"><span class="p-glyph">程</span><h3>程心</h3><p class="p-role mono">航天工程师 · 两度抉择者</p><p>两次被推上决定人类命运的位置，两次因爱而「失败」，却也两次替文明保住了另一种答案。她是圣母，也是我们自己。</p></article>
+    <article class="person reveal"><span class="p-glyph">维</span><h3>托马斯·维德</h3><p class="p-role mono">PIA 局长 · 星环城领袖</p><p>「我们只送大脑」「前进！前进！！不择手段地前进！！！」——全书最危险的男人，几乎每次都对，唯独最后一次选择了放手。</p></article>
+  </div>
+</section>
+
+<!-- ═══════════════ 05 编年 ═══════════════ -->
+<section class="sec" id="timeline">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">05</span>
+    <h2>编年 · 地球往事大事记</h2>
+    <p class="sec-desc">从红岸的一声呼叫到回归运动，四百年跌宕，被压缩成七行年表。</p>
+  </div>
+  <ol class="timeline">
+    <li class="reveal"><span class="t-year mono">1967</span><div><h3>疯狂年代</h3><p>天体物理学家叶哲泰死于批斗。他的女儿叶文洁从此对人类文明埋下问号。</p></div></li>
+    <li class="reveal"><span class="t-year mono">1971</span><div><h3>红岸 · 太阳作为天线</h3><p>大兴安岭雷达峰上，叶文洁发现太阳可以充当电波放大器，一次试验让人类的呼喊第一次有了宇宙音量。</p></div></li>
+    <li class="reveal"><span class="t-year mono">1979</span><div><h3>「不要回答」</h3><p>四光年外的三体世界回信警告，恳求地球沉默。叶文洁望了一眼朝阳，按下了发射键——坐标暴露。</p></div></li>
+    <li class="reveal"><span class="t-year mono">2007</span><div><h3>科学边界与三体游戏</h3><p>科学家接连自尽，汪淼卷入《三体》游戏与「古筝行动」。人类第一次直面：他们来了。</p></div></li>
+    <li class="reveal"><span class="t-year mono">危机纪年</span><div><h3>四百年倒计时</h3><p>三体舰队启航，面壁计划与阶梯计划启动。倾尽全球之力建造的联合舰队，在「水滴」面前一夜清零；罗辑在雪地工程中扣动扳机，建立黑暗森林威慑。</p></div></li>
+    <li class="reveal"><span class="t-year mono">威慑纪年</span><div><h3>执剑人罗辑的六十二年</h3><p>一只手悬在两个世界的按钮上，恐怖平衡换来了技术与知识的交换。交接给程心后十五分钟，威慑崩塌。</p></div></li>
+    <li class="reveal"><span class="t-year mono">广播 · 掩体纪年</span><div><h3>坐标广播与二维化</h3><p>「万有引力」号广播坐标，太阳系彻底暴露。人类躲进木星背后，而歌者只是随手掷出了二向箔——太阳系成为一幅画。</p></div></li>
+    <li class="reveal"><span class="t-year mono">银河纪年</span><div><h3>647 号小宇宙 · 归还运动</h3><p>程心与关一帆避入云天明赠送的小宇宙，读到归零者的召唤：把质量还给大宇宙，让时间重新开始。「把字刻在石头上。」</p></div></li>
+  </ol>
+</section>
+
+<!-- ═══════════════ 06 语录 ═══════════════ -->
+<section class="sec" id="quotes">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">06</span>
+    <h2>语录 · 刻在石头上的句子</h2>
+  </div>
+  <div class="quotes">
+    <blockquote class="reveal"><p>「给岁月以文明，而不是给文明以岁月。」</p><cite class="mono">— 《三体》</cite></blockquote>
+    <blockquote class="reveal"><p>「死亡是唯一一座永远亮着的灯塔，不管你向哪里航行，最终都得转向它指引的方向。」</p><cite class="mono">— 《三体 · 死神永生》</cite></blockquote>
+    <blockquote class="reveal"><p>「失去人性，失去很多；失去兽性，失去一切。」</p><cite class="mono">— 《三体 · 死神永生》</cite></blockquote>
+    <blockquote class="reveal"><p>「我们都是阴沟里的虫子，但总还是得有人仰望星空。」</p><cite class="mono">— 《三体》</cite></blockquote>
+    <blockquote class="reveal"><p>「前进！前进！！不择手段地前进！！！」</p><cite class="mono">— 托马斯·维德</cite></blockquote>
+    <blockquote class="reveal"><p>「把字刻在石头上。」</p><cite class="mono">— 罗辑，《死神永生》</cite></blockquote>
+  </div>
+</section>
+
+<!-- ═══════════════ 插叙 · 藏好自己 ═══════════════ -->
+<section class="interlude" style="background-image:url('images/space-blackhole-wide.jpg')">
+  <div class="interlude-inner reveal">
+    <p class="mono dim">给所有文明的备忘录</p>
+    <p class="interlude-quote">藏好自己，做好清理。</p>
+    <p class="interlude-cite mono">—— 《三体 · 死神永生》</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 07 改编 ═══════════════ -->
+<section class="sec" id="screens">
+  <div class="sec-head reveal">
+    <span class="sec-no mono">07</span>
+    <h2>改编 · 荧幕上的三体宇宙</h2>
+    <p class="sec-desc">同一个黑暗森林，被不同的镜头反复讲述。</p>
+  </div>
+  <div class="screens-grid">
+    <article class="screen reveal">
+      <div class="screen-img"><img src="images/poster-rb.jpg" alt="电视剧《三体》海报：红蓝双色群像" loading="lazy"></div>
+      <div class="screen-body">
+        <h3>剧集《三体》 <span class="mono">2023 · 腾讯视频</span></h3>
+        <p>杨磊执导，张鲁一、于和伟、陈瑾主演。以近乎「教科书级」的忠实改编，把红岸基地与三体游戏拍成了中国科幻剧的代表作。</p>
+      </div>
+    </article>
+    <article class="screen reveal">
+      <div class="screen-img"><img src="images/news-tatler.jpg" alt="Netflix《3 Body Problem》海报：射电望远镜崩解" loading="lazy"></div>
+      <div class="screen-body">
+        <h3>《3 Body Problem》 <span class="mono">2024 · Netflix</span></h3>
+        <p>《权力的游戏》主创 David Benioff 与 D.B. Weiss 操刀，刘宇昆参与顾问。全球视野重述三体故事，让「倒计时」爬上了全世界的屏幕。</p>
+      </div>
+    </article>
+    <article class="screen reveal">
+      <div class="screen-img"><img src="images/news-eeo.jpg" alt="《三体》动画周年纪念海报：三日凌空" loading="lazy"></div>
+      <div class="screen-body">
+        <h3>动画《三体》 <span class="mono">2022 · bilibili</span></h3>
+        <p>从「古筝行动」的高潮直接开局，以动画笔触续写黑暗森林。这张「三日凌空」国风纪念海报，恰是三体世界最凶险的天象。</p>
+      </div>
+    </article>
+    <article class="screen reveal">
+      <div class="screen-img"><img src="images/news-xjb.jpg" alt="未上映电影版《三体》海报：红岸基地与巨月" loading="lazy"></div>
+      <div class="screen-body">
+        <h3>未曾抵达的电影 <span class="mono">2016 · 搁浅</span></h3>
+        <p>张番番执导、冯绍峰主演的影版几经周折始终未与观众见面，海报里那轮压顶的巨月，成了流行文化的一桩悬案。</p>
+      </div>
+    </article>
+  </div>
+  <div class="poster-strip reveal">
+    <figure><img src="images/poster-shen.jpg" alt="剧集《三体》申玉菲角色海报" loading="lazy"><figcaption class="mono">申玉菲 · 剧集角色海报</figcaption></figure>
+    <figure><img src="images/poster-darkforest.jpg" alt="《三体·黑暗森林》剧集先导海报：水滴悬于森林上空" loading="lazy"><figcaption class="mono">水滴悬于黑暗森林</figcaption></figure>
+    <figure><img src="images/hand-logo.jpg" alt="手托三体发光三角形标志" loading="lazy"><figcaption class="mono">三体标志</figcaption></figure>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-tri" aria-hidden="true"><svg width="72" height="72" viewBox="0 0 64 64"><polygon points="32,6 58,52 6,52" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="40" r="6" fill="#e8b04a"/></svg></div>
+  <p class="footer-quote">「给岁月以文明，而不是给文明以岁月。」</p>
+  <p class="footer-note">本站为个人非营利粉丝致敬站。《三体》文字版权归刘慈欣所有，书封、剧照、海报等图片版权归原出版社及出品方所有，仅作学习与展示之用，如有侵权请联系删除。模拟器仅为艺术化演绎，非真实轨道计算。</p>
+  <p class="footer-sign mono">EARTH PAST TRILOGY · FAN TRIBUTE · 2026</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
